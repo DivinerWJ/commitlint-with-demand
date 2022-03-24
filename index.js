@@ -2,14 +2,19 @@
  * @Author: wangjie59
  * @Date: 2021-04-28 12:26:00
  * @LastEditors: wangjie59
- * @LastEditTime: 2021-05-10 13:15:39
+ * @LastEditTime: 2022-03-23 13:38:45
  * @Description: 
- * @FilePath: /weixin/Users/wangjie/Documents/study/test/commitlint-with-demand/index.js
+ * @FilePath: /commitlint-with-demand/index.js
  */
 'use strict'
+const {
+  headerPattern,
+  headerCorrespondence,
+} = require("./lib/load");
+
 module.exports = {
   parserOpts: {
-    headerPattern: /^(.*)\s(\w*)(?:\((.*)\))?:\s(.*)$/,
-    headerCorrespondence: ['demand', 'type', 'scope', 'subject']
+    headerPattern,
+    headerCorrespondence,
   }
 };
