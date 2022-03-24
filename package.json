@@ -1,6 +1,6 @@
 {
   "name": "commitlint-with-demand",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "commit中携带需求号判断",
   "main": "index.js",
   "scripts": {
