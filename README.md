@@ -1,7 +1,7 @@
 <!--
- * @Author: wangjie59
+ * @Author: DivinerWJ
  * @Date: 2021-04-28 12:53:56
- * @LastEditors: wangjie59
+ * @LastEditors: DivinerWJ
  * @LastEditTime: 2022-03-24 13:36:40
  * @Description: readme
  * @FilePath: /commitlint-with-demand/README.md
